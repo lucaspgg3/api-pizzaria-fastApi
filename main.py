@@ -24,8 +24,3 @@ app.include_router(order_router)
 # Para fazer uma migration:
     # alembic revision --autogenerate -m "mensagem da migration"
     # alembic upgrade head
-
-# Para rodar o código: 
-    # C:\Users\Lucas\Documents\Trabalho\curso-fastApi
-    # .venv\Scripts\activate.bat
-    # uvicorn main:app --reload
